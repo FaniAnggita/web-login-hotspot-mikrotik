@@ -1,0 +1,56 @@
+::selection {
+  background-color: #3e0505;
+  color: #fff;
+}
+::-moz-selection {
+  background-color: #e66e05;
+  color: #fff;
+}
+
+a:hover {
+  color: #0575e6;
+}
+
+a,
+.theme-color,
+.mm-column li.mm-header > a,
+.mm-column li:not(.mm-header) a:hover,
+.btn-t-white:hover,
+.btn-white {
+  color: #0575e6;
+}
+
+.theme-before:before,
+.theme-after:after,
+.btn-theme,
+.btn-white:hover,
+.theme-hover:hover,
+.owl-nav > div,
+.theme-bg {
+  background-image: linear-gradient(to right, #293158, #414f8e);
+}
+.btn-theme:hover {
+  background-image: linear-gradient(to right, #054a90, #104c88);
+}
+
+.price-table-01.active,
+.border-color {
+  border-color: #054a90 !important;
+}
+
+.theme-color-g {
+  background: linear-gradient(to right, #293158, #414f8e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input {
+  border-radius: 15px;
+}
+
+@media (max-width: 991px) {
+  .logo-utdi {
+    margin-top: 30px;
+    width: 60%;
+  }
+}
